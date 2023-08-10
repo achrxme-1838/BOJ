@@ -15,7 +15,6 @@ public:
 };
 
 
-
 int main()
 {
     std::vector<std::pair<int, int>> pairs;
