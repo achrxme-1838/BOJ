@@ -4,6 +4,8 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/2501_divider.cpp)
+        basicProblems/9506_sum_of_dividers.cpp)
+#add_executable(BOJ
+#        basicProblems/2501_divider.cpp)
 #add_executable(BOJ
 #        basicProblems/5086_factor_and_multiple.cpp)
