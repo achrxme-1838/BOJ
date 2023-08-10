@@ -4,7 +4,9 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/1978_prime_number_finding.cpp)
+        basicProblems/2581_prime_number.cpp)
+#add_executable(BOJ
+#        basicProblems/1978_prime_number_finding.cpp)
 #add_executable(BOJ
 #        basicProblems/9506_sum_of_dividers.cpp)
 #add_executable(BOJ
