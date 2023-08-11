@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/3009_the_4th_point.cpp)
+        basicProblems/15894_math_is_athletic.cpp)
 #add_executable(BOJ
 #        basicProblems/1978_prime_number_finding.cpp)
 #add_executable(BOJ
