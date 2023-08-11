@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/9063_EARTH.cpp)
+        basicProblems/10101_triangle_memorize.cpp)
 #add_executable(BOJ
 #        basicProblems/1978_prime_number_finding.cpp)
 #add_executable(BOJ
