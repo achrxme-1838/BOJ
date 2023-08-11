@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/1085_escape_from_rectangle.cpp)
+        basicProblems/3009_the_4th_point.cpp)
 #add_executable(BOJ
 #        basicProblems/1978_prime_number_finding.cpp)
 #add_executable(BOJ
