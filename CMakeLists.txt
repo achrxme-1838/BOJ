@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/19532_math_is_remote_class.cpp)
+        basicProblems/1018_refill_the_chessboard.cpp)
 
 
 #add_executable(BOJ
