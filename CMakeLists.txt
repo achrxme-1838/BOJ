@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/14215_three_rods.cpp)
+        basicProblems/2798_blackjack.cpp)
 
 
 #add_executable(BOJ
