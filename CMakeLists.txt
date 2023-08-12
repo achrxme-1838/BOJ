@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/2231_decomposition_sum.cpp)
+        basicProblems/19532_math_is_remote_class.cpp)
 
 
 #add_executable(BOJ
