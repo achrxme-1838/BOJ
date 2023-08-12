@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/2798_blackjack.cpp)
+        basicProblems/2231_decomposition_sum.cpp)
 
 
 #add_executable(BOJ
