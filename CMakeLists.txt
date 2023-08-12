@@ -4,7 +4,9 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/5073_triangle_and_3_sides.cpp)
+        basicProblems/14215_three_rods.cpp)
+
+
 #add_executable(BOJ
 #        basicProblems/1978_prime_number_finding.cpp)
 #add_executable(BOJ
