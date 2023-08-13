@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/1018_refill_the_chessboard.cpp)
+        basicProblems/1436_movie_director_SHOM.cpp)
 
 
 #add_executable(BOJ
