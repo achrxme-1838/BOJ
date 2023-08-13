@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/2839_sugar_deliver.cpp)
+        basicProblems/2750_sorting_numbers_insert.cpp)
 
 
 #add_executable(BOJ
