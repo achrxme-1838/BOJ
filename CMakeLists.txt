@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/1436_movie_director_SHOM.cpp)
+        basicProblems/1436_movie_director_SHOM_ver2.cpp)
 
 
 #add_executable(BOJ
