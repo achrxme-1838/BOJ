@@ -28,8 +28,8 @@ void Sort(int list[], int length) {
 
 int main()
 {
-    int N;
-    cin >> N;
+    int N, k;
+    cin >> N >> k;
 
     int list[N];
 
@@ -38,7 +38,8 @@ int main()
     }
 
     Sort(list, N);
-    PrintArray(list, N);
+
+    cout << list[N-k];
 
     return 0;
 }
