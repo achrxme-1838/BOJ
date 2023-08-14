@@ -10,18 +10,18 @@ void PrintArray(int* list, int length)
     cout << endl;
 }
 
+void Swap(int list[], int a, int b)
+{
+    int c = list[b];
+    list[b] = list[a];
+    list[a] = c;
+}
+
 void Sort(int list[], int length) {
 
-    int key;
-
-    for (int i = 1; i < length; i++) {
-        key = list[i];
-
-        for (int j = i - 1; j >= 0; j--) {
-            if (key < list[j]) {
-                list[j + 1] = list[j];
-                list[j] = key;
-            }
+    for(int i=length-1; i>=0; i--){
+        for(int j = 0; j<i; j++){
+            if(list[j] > list[j + 1]) Swap(list, j, j+1);
         }
     }
 }
