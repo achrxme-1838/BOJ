@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/2750_sorting_numbers_bubble_sort.cpp)
+        basicProblems/25305_cutline.cpp)
 
 
 #add_executable(BOJ
