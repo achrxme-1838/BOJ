@@ -54,19 +54,22 @@ void Sort(int list[], int left_idx, int right_idx)
 
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int N;
-    cin >> N;
+    scanf("%d", &N);
 
     int list[N];
 
     for(int i=0; i<N; i++){
-        cin >> list[i];
+        scanf("%d", &list[i]);
     }
 
     Sort(list, 0, N-1);
 
     for(int i=0; i<N; i++){
-        cout << list[i] << endl;
+        printf("%d\n", list[i]);
     }
 
     return 0;
