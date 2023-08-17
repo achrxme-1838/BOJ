@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/25305_cutline.cpp)
+        basicProblems/2751_merge_sort.cpp)
 
 
 #add_executable(BOJ
