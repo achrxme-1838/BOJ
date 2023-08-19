@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/10989_sort3.cpp)
+        basicProblems/11650_sorting_coordinate_3.cpp)
 
 
 #add_executable(BOJ
