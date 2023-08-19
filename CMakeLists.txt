@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/18870_coordinate_comp.cpp)
+        basicProblems/10815_number_card.cpp)
 
 
 #add_executable(BOJ
