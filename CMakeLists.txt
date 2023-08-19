@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/1181_sorting_words.cpp)
+        basicProblems/10814_sorting_ages.cpp)
 
 
 #add_executable(BOJ
