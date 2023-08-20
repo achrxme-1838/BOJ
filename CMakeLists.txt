@@ -4,7 +4,10 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/7785_who_is_in_the_company.cpp)
+        basicProblems/1620_pocketmon_ver2.cpp)
+
+#add_executable(BOJ
+#        basicProblems/cpp_test.cpp)
 
 
 #add_executable(BOJ
