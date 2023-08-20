@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/14425_string_set.cpp)
+        basicProblems/7785_who_is_in_the_company.cpp)
 
 
 #add_executable(BOJ
