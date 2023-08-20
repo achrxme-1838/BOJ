@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/1620_pocketmon_ver2.cpp)
+        basicProblems/11478_partial_string.cpp)
 
 #add_executable(BOJ
 #        basicProblems/cpp_test.cpp)
