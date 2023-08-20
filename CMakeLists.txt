@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ
-        basicProblems/10815_number_card.cpp)
+        basicProblems/14425_string_set.cpp)
 
 
 #add_executable(BOJ
