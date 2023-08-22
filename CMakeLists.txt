@@ -4,7 +4,7 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(BOJ basicProblems/1517_bubble_sort.cpp)
-add_executable(BOJ Sorting/24060_Merge_sort_1.cpp)
+add_executable(BOJ Recommended/Implementation/20546_stock_market.cpp)
 
 #add_executable(BOJ
 #        basicProblems/cpp_test.cpp)
