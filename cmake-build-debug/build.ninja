@@ -46,8 +46,8 @@ cmake_ninja_workdir = /Users/limseonghyeon/Desktop/BOJ/cmake-build-debug/
 
 build cmake_object_order_depends_target_BOJ: phony || CMakeFiles/BOJ.dir
 
-build CMakeFiles/BOJ.dir/Recommended/Implementation/20546_stock_market.cpp.o: CXX_COMPILER__BOJ_Debug /Users/limseonghyeon/Desktop/BOJ/Recommended/Implementation/20546_stock_market.cpp || cmake_object_order_depends_target_BOJ
-  DEP_FILE = CMakeFiles/BOJ.dir/Recommended/Implementation/20546_stock_market.cpp.o.d
+build CMakeFiles/BOJ.dir/Recommended/Implementation/2578_bingo.cpp.o: CXX_COMPILER__BOJ_Debug /Users/limseonghyeon/Desktop/BOJ/Recommended/Implementation/2578_bingo.cpp || cmake_object_order_depends_target_BOJ
+  DEP_FILE = CMakeFiles/BOJ.dir/Recommended/Implementation/2578_bingo.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   OBJECT_DIR = CMakeFiles/BOJ.dir
   OBJECT_FILE_DIR = CMakeFiles/BOJ.dir/Recommended/Implementation
@@ -60,7 +60,7 @@ build CMakeFiles/BOJ.dir/Recommended/Implementation/20546_stock_market.cpp.o: CX
 #############################################
 # Link the executable BOJ
 
-build BOJ: CXX_EXECUTABLE_LINKER__BOJ_Debug CMakeFiles/BOJ.dir/Recommended/Implementation/20546_stock_market.cpp.o
+build BOJ: CXX_EXECUTABLE_LINKER__BOJ_Debug CMakeFiles/BOJ.dir/Recommended/Implementation/2578_bingo.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/BOJ.dir
   POST_BUILD = :
