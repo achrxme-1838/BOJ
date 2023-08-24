@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/limseonghyeon/Desktop/BOJ/cmake-build-debug/
 
 build cmake_object_order_depends_target_BOJ: phony || CMakeFiles/BOJ.dir
 
-build CMakeFiles/BOJ.dir/Sorting/24173_Heap_sort_1.cpp.o: CXX_COMPILER__BOJ_Debug /Users/limseonghyeon/Desktop/BOJ/Sorting/24173_Heap_sort_1.cpp || cmake_object_order_depends_target_BOJ
-  DEP_FILE = CMakeFiles/BOJ.dir/Sorting/24173_Heap_sort_1.cpp.o.d
+build CMakeFiles/BOJ.dir/Recommended/Implementation/1913_snail.cpp.o: CXX_COMPILER__BOJ_Debug /Users/limseonghyeon/Desktop/BOJ/Recommended/Implementation/1913_snail.cpp || cmake_object_order_depends_target_BOJ
+  DEP_FILE = CMakeFiles/BOJ.dir/Recommended/Implementation/1913_snail.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   OBJECT_DIR = CMakeFiles/BOJ.dir
-  OBJECT_FILE_DIR = CMakeFiles/BOJ.dir/Sorting
+  OBJECT_FILE_DIR = CMakeFiles/BOJ.dir/Recommended/Implementation
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/BOJ.dir/Sorting/24173_Heap_sort_1.cpp.o: CXX_COMPILER__BOJ_Debu
 #############################################
 # Link the executable BOJ
 
-build BOJ: CXX_EXECUTABLE_LINKER__BOJ_Debug CMakeFiles/BOJ.dir/Sorting/24173_Heap_sort_1.cpp.o
+build BOJ: CXX_EXECUTABLE_LINKER__BOJ_Debug CMakeFiles/BOJ.dir/Recommended/Implementation/1913_snail.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/BOJ.dir
   POST_BUILD = :
