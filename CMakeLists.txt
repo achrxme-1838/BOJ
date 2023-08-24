@@ -3,8 +3,8 @@ project(BOJ)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#add_executable(BOJ basicProblems/1517_bubble_sort.cpp)
-add_executable(BOJ Recommended/Implementation/4396_mine_finding.cpp)
+add_executable(BOJ Sorting/24173_Heap_sort_1.cpp)
+#add_executable(BOJ Recommended/Implementation/4396_mine_finding.cpp)
 
 #add_executable(BOJ
 #        basicProblems/cpp_test.cpp)
