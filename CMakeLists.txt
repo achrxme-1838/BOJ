@@ -4,5 +4,5 @@ project(BOJ)
 set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(BOJ Sorting/24173_Heap_sort_1.cpp)
-add_executable(BOJ Recommended/Implementation/17413_word_reversing.cpp)
+add_executable(BOJ Recommended/Implementation/22858_roll_back_small.cpp)
 
