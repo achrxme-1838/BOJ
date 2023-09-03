@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/limseonghyeon/Desktop/BOJ/cmake-build-debug/
 
 build cmake_object_order_depends_target_BOJ: phony || CMakeFiles/BOJ.dir
 
-build CMakeFiles/BOJ.dir/DataStructure/9012_parenthesis.cpp.o: CXX_COMPILER__BOJ_Debug /Users/limseonghyeon/Desktop/BOJ/DataStructure/9012_parenthesis.cpp || cmake_object_order_depends_target_BOJ
-  DEP_FILE = CMakeFiles/BOJ.dir/DataStructure/9012_parenthesis.cpp.o.d
+build CMakeFiles/BOJ.dir/Recommended/DataStructure/1874_stack_sequence.cpp.o: CXX_COMPILER__BOJ_Debug /Users/limseonghyeon/Desktop/BOJ/Recommended/DataStructure/1874_stack_sequence.cpp || cmake_object_order_depends_target_BOJ
+  DEP_FILE = CMakeFiles/BOJ.dir/Recommended/DataStructure/1874_stack_sequence.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++14
   OBJECT_DIR = CMakeFiles/BOJ.dir
-  OBJECT_FILE_DIR = CMakeFiles/BOJ.dir/DataStructure
+  OBJECT_FILE_DIR = CMakeFiles/BOJ.dir/Recommended/DataStructure
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/BOJ.dir/DataStructure/9012_parenthesis.cpp.o: CXX_COMPILER__BOJ
 #############################################
 # Link the executable BOJ
 
-build BOJ: CXX_EXECUTABLE_LINKER__BOJ_Debug CMakeFiles/BOJ.dir/DataStructure/9012_parenthesis.cpp.o
+build BOJ: CXX_EXECUTABLE_LINKER__BOJ_Debug CMakeFiles/BOJ.dir/Recommended/DataStructure/1874_stack_sequence.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/BOJ.dir
   POST_BUILD = :

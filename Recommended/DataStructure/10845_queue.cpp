@@ -25,10 +25,10 @@ public:
         return count;
     }
     bool isEmpty(){
-        return (size()==0);
+        return int(size()==0);
     }
     bool isFull(){
-        return (size()==capacity);
+        return int(size()==capacity);
     }
     int dequeue(){
         if(isEmpty()){
@@ -74,7 +74,7 @@ int main() {
 
     int N; cin >> N;
 
-    Queue queue(10000);
+    Queue queue(2000000);
     for(int i=0; i<N; i++){
         string order; cin >> order;
         if(order == "push"){
