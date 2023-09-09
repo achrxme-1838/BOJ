@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(BOJ Sorting/24173_Heap_sort_1.cpp)
 #add_executable(BOJ Recommended/Implementation/22856_tree_traverse_ver2.cpp)
-add_executable(BOJ Recommended/DataStructure2/2075_Nth_largest_num.cpp)
+#add_executable(BOJ Recommended/DataStructure2/2075_Nth_largest_num.cpp)
+add_executable(BOJ Recommended/Math/2960_sieve_of_Eratosthenes.cpp)
 #add_executable(BOJ Recommended/class_1.cpp)
 

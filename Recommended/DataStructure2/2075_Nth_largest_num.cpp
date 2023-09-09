@@ -9,13 +9,13 @@ int main() {
     std::cout.tie(nullptr);
 
     int N;
-    cin >> N;
+    std::cin >> N;
 
-    priority_queue<long long, vector<long long>, greater<>> min_queue;
+    std::priority_queue<long long, std::vector<long long>, std::greater<>> min_queue;
 
     for(int n=1; n<=N*N; n++){
         long long in;
-        cin >> in;
+        std::cin >> in;
         if(n<=N+1) min_queue.push(in);
         else{
             min_queue.pop();
@@ -23,7 +23,7 @@ int main() {
         }
     }
     min_queue.pop();
-    cout << min_queue.top();
+    std::cout << min_queue.top();
 
     return 0;
 }
