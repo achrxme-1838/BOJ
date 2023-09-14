@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -9,13 +8,10 @@ int main() {
     std::cout.tie(nullptr);
 
     int N; cin >> N;
-    string in; cin >> in;
-    int ans = 0;
-    for(auto i: in){
-        ans += int(i) - 48;
-    }
 
-    cout << ans;
+    for(int n=1;c n<=N; n++){
+        cout << n << '\n';
+    }
 
     return 0;
 }
