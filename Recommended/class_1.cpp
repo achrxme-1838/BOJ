@@ -7,11 +7,14 @@ int main() {
     std::cin.tie(nullptr);
     std::cout.tie(nullptr);
 
-    int N; cin >> N;
+    int score;
+    cin >> score;
 
-    for(int n=1;c n<=N; n++){
-        cout << n << '\n';
-    }
+    if(score >= 90) cout << "A";
+    else if(score >= 80) cout << "B";
+    else if(score >= 70) cout << "C";
+    else if(score >= 60) cout << "D";
+    else cout << "F";
 
     return 0;
 }
